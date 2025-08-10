@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+/*css variables*/
+/*navigation bar*/
+#navbar{
+    display: flex;
+    align-items: center;
+background-image: url('./tomatoes-5365186_640.jpg');background-size: cover;
+}
+/* logo and image */
+#logo{
+    margin: 10px 34px;
+}
+#logo img{
+height: 59px;
+margin: 3px 6px;
+
+}
+#navbar{
+    position: relative;
+}
+ #navbar ul{
+align-items: center;
+    justify-content: center;
+display: flex;
+justify-content: space-evenly;
+margin: 10px;
+}
+#navbar::before{
+    content:"";
+    background-color: #2e2e2e;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#navbar ul li{
+    align-items: center;
+    box-shadow: 100px;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+#navbar ul li a{
+    align-items: center;
+    text-decoration: none;
+
+}
+#navbar ul  a{
+    align-items: center;
+color: white;
+}
+
+#navbar ul{
+    gap: 10px;
+box-shadow: 10px;
+}
+#navbar  ul li a:hover{
+
+    color: aliceblue;
+    background-color: black;
+    color: whitesmoke;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+}
+/*HOME SECTION*/
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    align-items: center;
+    justify-items: center;
+    height: 400px;
+}
+#home::before{
+   content:"";
+    background:url('./avocado-1838785_1280.jpg');background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: absolute;
+    margin-top: 0%;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;   
+}
+.shop-section{
+background-image: url('./woman-6760877_1280.jpg');background-size: cover;
+}
+
+.h-primary {
+    font-size: 2.8rem;
+    padding:12px;
+}
+.home h1{
+    text-shadow: #2e2e2e;
+}
+.shop-section{
+    display: flex;
+justify-content: space-evenly;
+background-color: #e2e7e6;
+flex-wrap: wrap;
+}
+.box{
+    background-image: url('./woman-6760877_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   height: 400px;
+   width: 25%;
+   background-color: white;
+padding: 20px 0px 15px;
+margin-top: 12px;
+}
+.box-img{
+   height: 300px;
+   background-repeat: no-repeat;
+   margin-top: 1rem;
+   margin-bottom: 1rem; 
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    margin: 300px;
+    padding: 1px;
+font-weight: 700;
+margin-bottom: 1rem;
+margin-left: 1rem;
+color:#007185;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-item {
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navbar-item:hover {
+  color: #00bfff;
+}
+.footer-info {
+    margin: 20px;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    box-shadow: #e2e7e6 0px 0px 10px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 1.2rem;
+  background-color: #333;
+}
